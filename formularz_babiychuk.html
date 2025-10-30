@@ -9,7 +9,7 @@
 <center><h1>Formularz o aktywności fizycznej</h1></center>
 
 <form enctype="text/plain" action="mailto:chakagg10@gmail.com" subject="formularz_dane" method="post">
-<table border="0" cellpadding="10">
+<table border="0" cellpadding="10" width="100%">
 
 <tr>
 <td><b>Imię:</b></td>
@@ -66,7 +66,7 @@
 <input type="checkbox" name="powod" value="szczuply"> Mam zamiar wyszczupleć<br>
 <input type="checkbox" name="powod" value="kondycja"> Chcę utrzymać swoją kondycję na dobrym poziomie<br>
 <input type="checkbox" name="powod" value="inna"> Inna (max 150 słów)<br>
-<input name="inna" size="25" maxlength="150">
+<input name="inna_odp" size="25" maxlength="150">
 </td>
 </tr>
 
@@ -89,13 +89,15 @@
 </td>
 </tr>
 
-<TR height="100">
- <TD><button onclick="alert('siema')" style="height:40px;width:150px">Przycisk niespodzianka</button></TD>
- <TD><nobr><input type="reset" value="Reset" style="height:40px; width:150px">
-</TD>
- <TD> <input type="submit" value"=Wyślij formularz" style="height:40px; width:150px"> </TD>
- </TR>
-
+<tr height="100">
+  <td colspan="2" align="center">
+    <button onclick="alert('siema')" style="height:40px;width:150px;">Przycisk niespodzianka</button>
+    &nbsp;&nbsp;
+    <input type="reset" value="Reset" style="height:40px; width:150px;">
+    &nbsp;&nbsp;
+    <input type="submit" value="Wyślij formularz" style="height:40px; width:150px;">
+  </td>
+</tr>
 
 </table>
 </form>
