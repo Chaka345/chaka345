@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="utf-8">
+<title>Formularz o aktywności fizycznej</title>
+</head>
+<body bgcolor="#FAA18F">
+
+<center><h1>Formularz o aktywności fizycznej</h1></center>
+
+<form enctype="text/plain" action="mailto:chakagg10@gmail.com" subject="formularz_dane" method="post">
+<table border="0" cellpadding="10">
+
+<tr>
+<td><b>Imię:</b></td>
+<td><input type="text" name="imie" size="30"></td>
+</tr>
+
+<tr>
+<td><b>Nazwisko:</b></td>
+<td><input type="text" name="nazwisko" size="30"></td>
+</tr>
+
+<tr>
+<td><b>Hasło:</b></td>
+<td><input type="password" name="haslo" size="30"></td>
+</tr>
+
+<tr>
+<td><b>Adres e-mail:</b></td>
+<td><input type="email" name="email" size="30"></td>
+</tr>
+
+<tr>
+<td><b>Nr telefonu:</b></td>
+<td><input type="tel" name="telefon" size="30"></td>
+</tr>
+
+<tr>
+<td><b>Jak Pan/Pani ocenia swoją kondycję fizyczną?</b></td>
+<td>
+<input type="radio" name="kondycja" value="bardzo_dobrze"> Bardzo dobrze<br>
+<input type="radio" name="kondycja" value="dobrze"> Dobrze<br>
+<input type="radio" name="kondycja" value="przecietnie"> Przeciętnie<br>
+<input type="radio" name="kondycja" value="gorzej"> Gorzej<br>
+<input type="radio" name="kondycja" value="zle"> Źle
+</td>
+</tr>
+
+<tr>
+<td><b>Jak często Pan/Pani uprawia sport?</b></td>
+<td>
+<input type="radio" name="czestotliwosc" value="codziennie"> Codziennie<br>
+<input type="radio" name="czestotliwosc" value="pare_razy"> Parę razy w tygodniu<br>
+<input type="radio" name="czestotliwosc" value="raz_w_tygodniu"> Raz w tygodniu<br>
+<input type="radio" name="czestotliwosc" value="kilka_w_miesiacu"> Kilkukrotnie w miesiącu<br>
+<input type="radio" name="czestotliwosc" value="rzadziej"> Rzadziej
+</td>
+</tr>
+
+<tr>
+<td><b>Dlaczego Pan/Pani uprawia sport?</b></td>
+<td>
+<input type="checkbox" name="powod" value="zawod"> Chodzi o mój zawód życiowy<br>
+<input type="checkbox" name="powod" value="przyjemnosc"> Jest dla mnie przyjemnością<br>
+<input type="checkbox" name="powod" value="szczuply"> Mam zamiar wyszczupleć<br>
+<input type="checkbox" name="powod" value="kondycja"> Chcę utrzymać swoją kondycję na dobrym poziomie<br>
+<input type="checkbox" name="powod" value="inna"> Inna (max 150 słów)<br>
+<input name="inna" size="25" maxlength="150">
+</td>
+</tr>
+
+<tr>
+<td><b>Czy Pan/Pani pali?</b></td>
+<td>
+<input type="radio" name="pali" value="tak"> Tak<br>
+<input type="radio" name="pali" value="nie"> Nie<br>
+<input type="radio" name="pali" value="czasami"> Czasami
+</td>
+</tr>
+
+<tr>
+<td><b>Najbardziej interesujący sport:</b></td>
+<td>
+<input type="radio" name="sport" value="pilka_nozna"> Piłka nożna<br>
+<input type="radio" name="sport" value="siatkowka"> Siatkówka<br>
+<input type="radio" name="sport" value="koszykowka"> Koszykówka<br>
+<input type="radio" name="sport" value="inny"> Inny
+</td>
+</tr>
+
+<TR height="100">
+ <TD><button onclick="alert('siema')" style="height:40px;width:150px">Przycisk niespodzianka</button></TD>
+ <TD><nobr><input type="reset" value="Reset" style="height:40px; width:150px">
+</TD>
+ <TD> <input type="submit" value"=Wyślij formularz" style="height:40px; width:150px"> </TD>
+ </TR>
+
+
+</table>
+</form>
+
+</body>
+</html>
